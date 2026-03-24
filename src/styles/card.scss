@@ -10,101 +10,101 @@
 
   font-family: Roboto, sans-serif;
   font-weight: 500;
-}
 
-.card__inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.card__img {
-  display: block;
-  width: 160px;
-  height: 134px;
-  padding-top: 16px;
-}
+  &__img {
+    display: block;
+    width: 160px;
+    height: 134px;
+    padding-top: 16px;
+  }
 
-.card__main-title {
-  color: #{$main-text-color};
-  font-weight: #{$main-weight};
-  font-size: 12px;
-  line-height: 18px;
-  letter-spacing: 0;
-  margin: 40px 0 0;
-}
+  &__main-title {
+    color: #{$main-text-color};
+    font-weight: #{$main-weight};
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0;
+    margin: 40px 0 0;
+  }
 
-.card__second-title {
-  color: #{second-text-color};
-  font-weight: #{$small-weight};
-  font-size: 10px;
-  line-height: 14px;
-  letter-spacing: 0;
-  margin: 4px 0 0;
-}
+  &__second-title {
+    color: #{$second-text-color};
+    font-weight: #{$small-weight};
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0;
+    margin: 4px 0 0;
+  }
 
-.card__rating {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  margin-top: 16px;
-}
+  &__rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 16px;
+  }
 
-.card__review {
-  color: #{$main-text-color};
-  font-weight: #{$small-weight};
-  font-size: 10px;
-  line-height: 14px;
-  letter-spacing: 0;
-  margin: 0;
-}
+  &__review {
+    color: #{$main-text-color};
+    font-weight: #{$small-weight};
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0;
+    margin: 0;
+  }
 
-.card__price {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding-top: 24px;
-}
+  &__price {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 24px;
+  }
 
-.card__label {
-  margin: 0;
-  font-size: 12px;
-  line-height: 18px;
-  letter-spacing: 0;
-  color: #{second-text-color};
-  font-weight: #{$small-weight};
-}
+  &__label {
+    margin: 0;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #{$second-text-color};
+    font-weight: #{$small-weight};
+  }
 
-.card__number {
-  margin: 0;
-  font-size: 16px;
-  line-height: 18px;
-  letter-spacing: 0;
-  color: #{$main-text-color};
-  font-weight: #{$big-weight};
-}
+  &__number {
+    margin: 0;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #{$main-text-color};
+    font-weight: #{$big-weight};
+  }
 
-.card__button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  background-color: #00acdc;
-  box-sizing: border-box;
-  border: 1px solid #00acdc;
-  border-radius: #{$main-border-radius};
-  font-size: 14px;
-  line-height: 16px;
-  font-weight: #{$big-weight};
-  text-align: center;
-  text-decoration: none;
-  height: 40px;
-  width: 100%;
-  margin-top: 16px;
-}
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #00acdc;
+    box-sizing: border-box;
+    border: 1px solid #00acdc;
+    border-radius: #{$main-border-radius};
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: #{$big-weight};
+    text-align: center;
+    text-decoration: none;
+    height: 40px;
+    width: 100%;
+    margin-top: 16px;
 
-.card__button:hover {
-  background-color: #fff;
-  color: #00acdc;
+    &:hover {
+      background-color: #fff;
+      color: #00acdc;
+    }
+  }
 }
