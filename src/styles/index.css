@@ -1,13 +1,16 @@
+body {
+  margin: 0;
+}
+
 .card {
   display: inline-block;
   width: 200px;
   height: 408px;
-  border-radius: #{$main-border-radius};
+  border-radius: var(--main-border-radius);
   border: 1px solid #f3f3f3;
   background-color: white;
   box-sizing: border-box;
-  padding: #{$main-card-padding};
-
+  padding: var(--main-card-padding);
   font-family: Roboto, sans-serif;
   font-weight: 500;
 }
@@ -26,8 +29,8 @@
 }
 
 .card__main-title {
-  color: #{$main-text-color};
-  font-weight: #{$main-weight};
+  color: var(--main-text-color);
+  font-weight: var(--main-weight);
   font-size: 12px;
   line-height: 18px;
   letter-spacing: 0;
@@ -35,8 +38,8 @@
 }
 
 .card__second-title {
-  color: #{second-text-color};
-  font-weight: #{$small-weight};
+  color: var(--second-text-color);
+  font-weight: var(--small-weight);
   font-size: 10px;
   line-height: 14px;
   letter-spacing: 0;
@@ -52,8 +55,8 @@
 }
 
 .card__review {
-  color: #{$main-text-color};
-  font-weight: #{$small-weight};
+  color: var(--main-text-color);
+  font-weight: var(--small-weight);
   font-size: 10px;
   line-height: 14px;
   letter-spacing: 0;
@@ -72,8 +75,8 @@
   font-size: 12px;
   line-height: 18px;
   letter-spacing: 0;
-  color: #{second-text-color};
-  font-weight: #{$small-weight};
+  color: var(--second-text-color);
+  font-weight: var(--small-weight);
 }
 
 .card__number {
@@ -81,8 +84,8 @@
   font-size: 16px;
   line-height: 18px;
   letter-spacing: 0;
-  color: #{$main-text-color};
-  font-weight: #{$big-weight};
+  color: var(--main-text-color);
+  font-weight: var(--big-weight);
 }
 
 .card__button {
@@ -93,12 +96,11 @@
   background-color: #00acdc;
   box-sizing: border-box;
   border: 1px solid #00acdc;
-  border-radius: #{$main-border-radius};
+  border-radius: var(--main-border-radius);
   font-size: 14px;
   line-height: 16px;
-  font-weight: #{$big-weight};
+  font-weight: var(--big-weight);
   text-align: center;
-  text-decoration: none;
   height: 40px;
   width: 100%;
   margin-top: 16px;
@@ -108,3 +110,41 @@
   background-color: #fff;
   color: #00acdc;
 }
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  background-image: url(../images/star.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 16px;
+  width: 16px;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
+}
+
+.stars--1 .stars__star:nth-child(-n + 1) {
+  background-image: url(../images/star-active.svg);
+}
+
+.stars--2 .stars__star:nth-child(-n + 2) {
+  background-image: url(../images/star-active.svg);
+}
+
+.stars--3 .stars__star:nth-child(-n + 3) {
+  background-image: url(../images/star-active.svg);
+}
+
+.stars--4 .stars__star:nth-child(-n + 4) {
+  background-image: url(../images/star-active.svg);
+}
+
+.stars--5 .stars__star:nth-child(-n + 5) {
+  background-image: url(../images/star-active.svg);
+}
+
+/*# sourceMappingURL=index.css.map */
