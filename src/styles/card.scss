@@ -2,9 +2,9 @@
   display: inline-block;
   width: 200px;
   height: 408px;
-  border-radius: #{$main-border-radius};
-  border: 1px solid #f3f3f3;
-  background-color: white;
+  border-radius: $main-border-radius;
+  border: 1px solid $border-color;
+  background-color: $main-card-color;
   box-sizing: border-box;
   padding: #{$main-card-padding};
 
@@ -21,7 +21,7 @@
     display: block;
     width: 160px;
     height: 134px;
-    padding-top: 16px;
+    padding-top: $main-card-padding;
   }
 
   &__main-title {
@@ -88,11 +88,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
-    background-color: #00acdc;
+    color: $main-card-color;
+    background-color: $button-color;
     box-sizing: border-box;
-    border: 1px solid #00acdc;
-    border-radius: #{$main-border-radius};
+    border: 1px solid $button-color;
+    border-radius: $main-border-radius;
     font-size: 14px;
     line-height: 16px;
     font-weight: #{$big-weight};
@@ -103,8 +103,8 @@
     margin-top: 16px;
 
     &:hover {
-      background-color: #fff;
-      color: #00acdc;
+      background-color: $main-card-color;
+      color: $button-color;
     }
   }
 }
