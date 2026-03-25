@@ -6,7 +6,7 @@
   border: 1px solid $border-color;
   background-color: $main-card-color;
   box-sizing: border-box;
-  padding: #{$main-card-padding};
+  padding: $main-card-padding;
 
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -25,8 +25,8 @@
   }
 
   &__main-title {
-    color: #{$main-text-color};
-    font-weight: #{$main-weight};
+    color: $main-text-color;
+    font-weight: $main-weight;
     font-size: 12px;
     line-height: 18px;
     letter-spacing: 0;
@@ -34,8 +34,8 @@
   }
 
   &__second-title {
-    color: #{$second-text-color};
-    font-weight: #{$small-weight};
+    color: $second-text-color;
+    font-weight: $small-weight;
     font-size: 10px;
     line-height: 14px;
     letter-spacing: 0;
@@ -51,8 +51,8 @@
   }
 
   &__review {
-    color: #{$main-text-color};
-    font-weight: #{$small-weight};
+    color: $main-text-color;
+    font-weight: $small-weight;
     font-size: 10px;
     line-height: 14px;
     letter-spacing: 0;
@@ -71,8 +71,8 @@
     font-size: 12px;
     line-height: 18px;
     letter-spacing: 0;
-    color: #{$second-text-color};
-    font-weight: #{$small-weight};
+    color: $second-text-color;
+    font-weight: $small-weight;
   }
 
   &__number {
@@ -80,8 +80,8 @@
     font-size: 16px;
     line-height: 18px;
     letter-spacing: 0;
-    color: #{$main-text-color};
-    font-weight: #{$big-weight};
+    color: $main-text-color;
+    font-weight: $big-weight;
   }
 
   &__button {
